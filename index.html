@@ -11,11 +11,11 @@
     
 </head>
 <body>
-    <div class="container">
-        <!-- header -->
-        <header class="header">        
+    <!-- header -->
+    <header class="header">
+        <div class="container header-box">  
             <nav class="header-nav">
-                <a class="logo" href="./index.html"><span>Web</span>Studio</a>
+                <a class="logo logo-header" href="./index.html"><span>Web</span>Studio</a>
                 <ul class="nav-list">
                     <li class="header-item"><a class="header-link current-page" href="./index.html">Студія</a></li>
                     <li class="header-item"><a class="header-link" href="./portfolio.html">Портфоліо</a></li>
@@ -23,79 +23,92 @@
                 </ul>
             </nav>
             <ul class="header-list">
-                <li class="header-item"><a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-item"><a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="header-item header-contact"><a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-item header-contact"><a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </header>
+        </div>
+    </header>
+    
+    <main>
         
-        <main>
-            <!-- section 1 -->
-            <section class="main-section">
+        <!-- section 1 -->
+        <section class="main-section">
+            <div class="container">
                 <h1 class="main-header">Ефективні рішення для вашого бізнесу</h1>
                 <button class="button accent-button" type="button">Замовити послугу</button>
-            </section>
-            <!-- section 2 -->
-            <section class="section">
-                <h2 hidden >Наші особливості</h2>
-                <ul class="section-list">
+            </div>
+        </section>
+        <!-- section 2 -->
+        <section class="section">
+            <div class="container"></div>
+                <h2 class="visually-hidden">Наші особливості</h2>
+                <ul class="section-list image-box">
                     <li class="section-item">
-                        <h3 class="item-header">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <h3 class="item-header">Увагадо деталей</h3>
                         <p class="item-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
                     <li class="section-item">
-                        <h3 class="item-header">ПУНКТУАЛЬНІСТЬ</h3>
+                        <h3 class="item-header">Пунктуальність</h3>
                         <p class="item-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         
                     </li>
                     <li class="section-item">
-                        <h3 class="item-header">ПЛАНУВАННЯ</h3>
+                        <h3 class="item-header">Планування</h3>
                         <p class="item-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
                     <li class="section-item">
-                        <h3 class="item-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <h3 class="item-header">Сучасні технології</h3>
                         <p class="item-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
-            </section>
-            <!-- section 3 -->
-            <section class="section">
+            </div>
+        </section>
+        <!-- section 3 -->
+        <section class="section">
+            <div class="container"></div>
                 <h2 class="section-header">Чим ми займаємося</h2>
-                <ul class="section-list">
+                <ul class="section-list image-box">
                     <li class="section-item"><img class="section-image" src="./images/aboutUs/img1.jpg" alt="людина працює на комп'ютері" width="370"></li>
                     <li class="section-item"><img class="section-image" src="./images/aboutUs/img2.jpg" alt="людина працює на телефоні" width="370"></li>
                     <li class="section-item"><img class="section-image" src="./images/aboutUs/img3.jpg" alt="людина працює на планшеті" width="370"></li>
                 </ul>
-            </section>
-            <!-- section 4 -->
-            <section class="section">
+            </div>
+        </section>
+        <!-- section 4 -->
+        <section class="section team-section">
+            <div class="container "></div>
                 <h2 class="section-header">Наша команда</h2>
-                <ul class="section-list">
-                    <li class="section-item">
-                        <img src="./images/ourTeam/ihor.jpg" alt="Ігор" width="270">
+                <ul class="section-list image-box">
+                    <li class="section-item item-box">
+                        <img class="section-image" src="./images/ourTeam/ihor.jpg" alt="Ігор" width="270">
                         <h3 class="item-header">Ігор Дем'яненко</h3>
                         <p class="item-text">Product Designer</p>
                     </li>
-                    <li class="section-item">
-                        <img src="./images/ourTeam/olha.jpg" alt="Ольга" width="270">
+                    <li class="section-item item-box">
+                        <img class="section-image" src="./images/ourTeam/olha.jpg" alt="Ольга" width="270">
                         <h3 class="item-header">Ольга Рєпіна</h3>
                         <p class="item-text">Frontend Developer</p>
                     </li>
-                    <li class="section-item">
-                        <img src="./images/ourTeam/mykola.jpg" alt="Микола" width="270">
+                    <li class="section-item item-box">
+                        <img class="section-image" src="./images/ourTeam/mykola.jpg" alt="Микола" width="270">
                         <h3 class="item-header">Микола Тарасов</h3>
                         <p class="item-text">Marketing</p>
                     </li>
-                    <li class="section-item">
-                        <img src="./images/ourTeam/myhailo.jpg" alt="Михайло" width="270">
+                    <li class="section-item item-box">
+                        <img class="section-image" src="./images/ourTeam/myhailo.jpg" alt="Михайло" width="270">
                         <h3 class="item-header">Михайло Єрмаков</h3>
                         <p class="item-text">UI Designer</p>
                     </li>
                 </ul>
-            </section>
-        </main>
-        <!-- footer -->
-        <footer class="footer">
-            <a class="logo" href="#"><span>Web</span>Studio</a>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer-box">
+            <a class="logo logo-footer" href="#"><span>Web</span>Studio</a>
             <address class="address">
                 <ul class="footer-list">
                     <li class="footer-item"><a class="footer-header" href="https://goo.gl/maps/QE7qxqaoZU5Wftew7" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
@@ -103,7 +116,7 @@
                     <li class="footer-item"><a class="footer-text" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
